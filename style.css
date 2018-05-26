@@ -1,0 +1,70 @@
+
+/*
+
+  cm
+  in
+  px
+
+  /////////////////////
+
+  em
+  rem
+  vw
+  vh
+  vmin
+  vmax
+
+  ////////////////////
+
+  1.- Revisar que el archivo este importado en HTML
+  2.- Revisar tu sintaxis
+  3.- Revisar que lo que estas haciendo es lo que quieres hacer
+  4.- Preguntar a Marco
+  5.- Preguntar a Google
+  6.- Llorar
+  7.- Berrear
+  8.- Morir (ahogado)
+
+*/
+
+/* p:before {
+  content: open-quote;
+}
+
+p:after {
+  content: close-quote;
+} */
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(186, 155, 252);
+}
+
+input[type="checkbox"]:checked + label {
+  background-color: rgb(155, 252, 194);
+}
+
+input[type="checkbox"]:checked + label:after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 10px;
+  position: relative;
+  top: 25%;
+  left: 25%;
+  box-sizing: border-box;
+  transform: rotate(-50deg);
+  border-bottom: 5px solid #000;
+  border-left: 5px solid #000;
+}
+
+/* .box > .box {
+  height: 50%;
+  background-color: rgb(81, 83, 144);
+} */
